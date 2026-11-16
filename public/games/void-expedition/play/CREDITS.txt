@@ -1,0 +1,9 @@
+VOID EXPEDITION / 虚空远征 — 0.2.0 release candidate
+
+Original project-specific models: locally authored with Blender via scripts/build_assets.py. Editable source is retained in assets/source/expedition.blend in the development project. No original Void Explorer game assets copied.
+Procedural terrain, starfield and synthesized audio: this project; no external texture or sound files.
+Three.js 0.186.0 — MIT, included licenses/three-MIT.txt.
+Rapier JS compat 0.20.0 — Apache-2.0, included licenses/rapier-Apache-2.0.txt.
+Build tooling: Vite 7.3.6; not a runtime service.
+Public design reference: Void Explorer showcase. This project is independent and is not an official OpenAI product or endorsed adaptation.
+No accounts, advertising, purchases, analytics or runtime model requests. Progress is stored locally in your browser.
