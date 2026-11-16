@@ -50,8 +50,8 @@ function header(): string {
       <span>aipickgold</span>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="${basePath}#games">Games</a>
-      <a href="${basePath}#about">About</a>
+      <a href="${basePath}games.html#games">Games</a>
+      <a href="${basePath}?view=about">About</a>
     </nav>
   </header>`;
 }
@@ -161,7 +161,7 @@ function gameContent(game: Game, otherGames: Game[]): string {
   const playableLabel = game.status === 'playable' ? 'Play now' : 'Coming soon';
 
   return `<section class="game-hero section-wrap" aria-labelledby="game-title">
-    <a class="back-link" href="${basePath}"><span aria-hidden="true">←</span> Back to all games</a>
+    <a class="back-link" href="${basePath}games.html"><span aria-hidden="true">←</span> Back to all games</a>
     <div class="game-hero__heading">
       <div>
         <p class="eyebrow eyebrow--accent"><span class="eyebrow-dot" aria-hidden="true"></span> ${playableLabel}</p>
