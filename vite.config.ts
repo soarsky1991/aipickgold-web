@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: fileURLToPath(new URL('./index.html', import.meta.url)),
+        games: fileURLToPath(new URL('./games.html', import.meta.url)),
         game: fileURLToPath(new URL('./game.html', import.meta.url)),
       },
     },
