@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#060a16"><title>虚空远征 · VOID EXPEDITION</title>  <script type="module" crossorigin src="./assets/index-FxqX_97h.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/three-Dio5NCv2.js">
+  <link rel="modulepreload" crossorigin href="./assets/physics-iRel_T-y.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-DwdnKsVP.css">
+</head>
+<body>
+<main id="universe" aria-label="3D expedition"></main>
+<div id="hud">
+<header><div class="wordmark">V<span> / </span>E <small>VOID EXPEDITION</small></div><nav><button id="fullscreen" data-copy="fullscreen">全屏</button><button id="pauseButton"><span data-copy="pause">暂停</span> <kbd>ESC</kbd></button></nav></header>
+<section class="mission"><span class="eyebrow" id="phase"></span><h1 id="objective"></h1><p id="guidance"></p><div class="stages" id="stages"></div><div id="objectiveProgress"></div></section>
+<div class="planet-label"><span id="sector"></span><strong id="levelTitle"></strong><small id="cargo"></small></div>
+<div id="crosshair" aria-hidden="true">＋</div><div id="target"><b>◇</b><span id="targetText"></span></div><div id="context" role="status"></div>
+<footer><div class="stat"><small data-copy="speed"></small><strong id="speed">0</strong></div><div class="stat"><small data-copy="altitude"></small><strong id="altitude">—</strong></div><div class="stat target-stat"><small data-copy="range"></small><strong id="range">—</strong></div><div class="systems"><span id="assistStatus"></span><span id="perf">— FPS</span><span id="saveStatus"></span></div></footer><div class="control-strip" id="controlStrip"></div>
+</div>
+<div id="overlay"><section class="intro"><span class="eyebrow">DEEP RANGE / SEARCH & RESCUE</span><h2 id="gameTitle">虚空远征</h2><p class="intro-copy" id="introCopy"></p><p class="tagline" data-copy="tagline"></p><div class="mission-list" id="missionList"></div><button id="start" class="primary" disabled>正在准备远征…</button><p class="hint" data-copy="keyboard"></p><p class="narrow" data-copy="narrow"></p><p class="save-warning" id="saveWarning" hidden></p><label class="language"><span data-copy="language"></span><select id="language"><option value="zh">中文</option><option value="en">English</option></select></label><p class="hint" data-copy="duration"></p></section><div class="intro-side">LYRA / SCOUT 07<br>ONE WORLD. THREE SIGNALS.<br><span>FIND YOUR WAY HOME.</span></div></div>
+<div id="menu" hidden><section class="panel"><span class="eyebrow">FLIGHT COMPUTER</span><h2 id="menuTitle"></h2><p id="menuMessage"></p><button class="primary" id="resume" data-copy="resume"></button><button class="primary" id="next" data-copy="next" hidden></button><button id="retry" data-copy="retry"></button><button id="restart" data-copy="restart"></button><p class="hint" data-copy="resetHint"></p><details><summary data-copy="help"></summary><p data-copy="helpText"></p></details><div class="settings"><label><span data-copy="quality"></span><select id="quality"><option value="high" data-copy="standard"></option><option value="low" data-copy="low"></option></select></label><label><span data-copy="sensitivity"></span><input id="sensitivity" type="range" min="0.2" max="3" step="0.1" value="1"></label><label><input id="assist" type="checkbox" checked><span data-copy="assistSetting"></span></label><label><input id="invert" type="checkbox"><span data-copy="invert"></span></label><label><input id="sound" type="checkbox" checked><span data-copy="sound"></span></label><label><span data-copy="language"></span><select id="menuLanguage"><option value="zh">中文</option><option value="en">English</option></select></label></div></section></div>
+<div id="fatal" hidden role="alert"></div>
+</body></html>
