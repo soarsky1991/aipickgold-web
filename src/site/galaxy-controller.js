@@ -206,4 +206,3 @@ export function initEcosystem() {
     } catch { fallback(); }
   }).catch(fallback);
 }
-
